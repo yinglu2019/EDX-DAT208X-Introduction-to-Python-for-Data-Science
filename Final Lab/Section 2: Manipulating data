@@ -1,0 +1,5 @@
+1.
+# Add sharemen column
+recent_grads['sharemen'] = recent_grads['men']/recent_grads['total']
+
+2.
