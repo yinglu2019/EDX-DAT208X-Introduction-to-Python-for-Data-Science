@@ -46,3 +46,13 @@ recent_grads.sharewomen.plot(kind='hist')
 plt.show()
 
 5.
+# DataFrame of non-college job sums
+df = recent_grads.groupby(['major_category']).non_college_jobs.sum()
+
+# Plot bar chart
+df.plot(kind="bar")
+
+# Show graph
+plt.show()
+
+6.
